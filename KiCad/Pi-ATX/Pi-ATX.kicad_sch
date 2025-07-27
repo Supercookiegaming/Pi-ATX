@@ -1,0 +1,326 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "676c920c-f1ce-40bb-8428-0902e451bdf9")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 110.49 52.07)
+		(size 38.1 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2f554058-6979-4fc2-85a1-6bab7ea811a9")
+		(property "Sheetname" "CM5"
+			(at 110.49 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CM5.kicad_sch"
+			(at 110.49 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO{GPIO}" bidirectional
+			(at 148.59 63.5 0)
+			(uuid "083add24-79cd-4c81-b508-234fbf477558")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRPIBOT" input
+			(at 110.49 63.5 180)
+			(uuid "9e58a4c2-c33c-436e-921c-75bd57235c53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Pi_LED_nPWR" output
+			(at 110.49 66.04 180)
+			(uuid "6c8a7632-a8f5-445d-8b3e-16e7bdd9990e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Pi_PWR_Button" input
+			(at 110.49 68.58 180)
+			(uuid "408dec3d-3c94-41d3-9caa-337e87b8adf9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Pi_Fan_Tach" input
+			(at 110.49 71.12 180)
+			(uuid "01ce8c89-0bea-4e1f-b3d1-8976ce2e7153")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EEPROM_nWP" input
+			(at 110.49 73.66 180)
+			(uuid "8a1fe202-0f58-497f-921d-7eabfca70365")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PMIC_Enable" input
+			(at 110.49 76.2 180)
+			(uuid "9adf7b85-1259-429b-a8f3-bbf142a0927c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PI_LED_nACT" output
+			(at 110.49 78.74 180)
+			(uuid "f30fbcc3-1005-4c94-bec1-43f50047d6ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_SYC_OUT" output
+			(at 110.49 81.28 180)
+			(uuid "e6fde8b6-f69b-4f1f-887f-db538e7e476d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PI_FAN_PWM" output
+			(at 110.49 83.82 180)
+			(uuid "813dd5c3-196c-4127-a845-9a53abb115e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_VREF" input
+			(at 110.49 86.36 180)
+			(uuid "eabfc61c-a551-44c1-9065-6505701fb44a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT" input
+			(at 110.49 88.9 180)
+			(uuid "5f9849f6-748f-4eec-b89b-bc849e21678d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE0{PCIExPi}" bidirectional
+			(at 148.59 69.85 0)
+			(uuid "205f13fb-23bb-4a09-ab9b-723dff8fd7a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Wl_nDisable" input
+			(at 110.49 91.44 180)
+			(uuid "f554f4ee-414b-421f-887b-784531adba41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HDMI1{HDMI}" bidirectional
+			(at 148.59 74.93 0)
+			(uuid "4c183908-475b-469f-b7c8-46d04744bac6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MIPI1{MIPI}" bidirectional
+			(at 148.59 82.55 0)
+			(uuid "3b92f70e-b39b-4873-96c5-b93a1d1bd8d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MIPI0{MIPI}" bidirectional
+			(at 148.59 80.01 0)
+			(uuid "0b4b2339-5bd6-4208-af4c-04f8b35b8c8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH{Ethernet}" bidirectional
+			(at 148.59 58.42 0)
+			(uuid "f7c7bbe6-ac11-415d-9d56-e8d301f66441")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0{HDMI}" bidirectional
+			(at 148.59 72.39 0)
+			(uuid "9bd0ad41-24d5-4f8a-8402-908e9423786b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BT_nDisable" input
+			(at 110.49 93.98 180)
+			(uuid "df7603c0-1cdc-4b34-89de-d531bc475c35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD0{SD}" bidirectional
+			(at 148.59 102.87 0)
+			(uuid "8b84a987-9ec9-42b5-8445-e860018a4850")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD_VDD_OVR" input
+			(at 148.59 100.33 0)
+			(uuid "42d803d3-9aa3-4caa-ba98-f7088bbc60e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD_PWR_ON" output
+			(at 148.59 97.79 0)
+			(uuid "cb5f6cd2-dbfd-4f90-a4d5-2355156019fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB2-0{USB2-0}" bidirectional
+			(at 148.59 93.98 0)
+			(uuid "5d40ff1d-816c-4988-9a2d-35a32232c17e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB3-1{USB3-0}" bidirectional
+			(at 148.59 91.44 0)
+			(uuid "4637910d-a41a-4561-9646-555e55532ea7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB3-0{USB3-0}" bidirectional
+			(at 148.59 88.9 0)
+			(uuid "78edcfb3-4bfa-40b4-a32c-a62983644dfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS3_EN" output
+			(at 148.59 86.36 0)
+			(uuid "a78189ab-ddd3-4c3f-9ac5-cf7a2749b889")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Pi-ATX"
+				(path "/676c920c-f1ce-40bb-8428-0902e451bdf9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
