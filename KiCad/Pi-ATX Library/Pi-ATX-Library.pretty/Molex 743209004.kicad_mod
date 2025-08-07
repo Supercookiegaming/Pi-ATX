@@ -439,7 +439,7 @@
 		(uuid "358ad2bf-b56d-4306-94d5-2d76e4cd342b")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_PIATX_REPO_DIR}/KiCad/Pi-ATX Library/Pi-ATX-3D-Library/743209004.stp"
+	(model "${KICAD9_USER_PIATX_REPO_DIR}/KiCad/Pi-ATX Library/Pi-ATX-3D-Library/743209004.stp"
 		(offset
 			(xyz 0 -0.6 4.5)
 		)
