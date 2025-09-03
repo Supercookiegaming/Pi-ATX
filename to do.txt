@@ -5,3 +5,5 @@ use pcie switch to have 2 m.2 (1 wifi 1 ss), 1 16x slot and a sata controller
 have argb controller, fan controller usb hub (3.0) and HD audio header
 
 MIPI connectors use DVi instead of FPC connector so camera modules can be mounted farther away.
+
+Develop FPGA Chipset to handle I/O like a bios for later versions.
