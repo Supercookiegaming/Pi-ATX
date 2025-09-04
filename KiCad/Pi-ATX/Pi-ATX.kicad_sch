@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 88.9 34.29) (xy 88.9 158.75)
+			(xy 88.9 34.29) (xy 88.9 151.13)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(bus
 		(pts
-			(xy 81.28 107.95) (xy 53.34 107.95)
+			(xy 81.28 100.33) (xy 53.34 100.33)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +27,7 @@
 	)
 	(bus
 		(pts
-			(xy 77.47 85.09) (xy 77.47 34.29)
+			(xy 77.47 77.47) (xy 77.47 34.29)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +37,7 @@
 	)
 	(bus
 		(pts
-			(xy 53.34 110.49) (xy 85.09 110.49)
+			(xy 53.34 102.87) (xy 85.09 102.87)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +47,7 @@
 	)
 	(bus
 		(pts
-			(xy 85.09 110.49) (xy 85.09 34.29)
+			(xy 85.09 102.87) (xy 85.09 34.29)
 		)
 		(stroke
 			(width 0)
@@ -57,7 +57,7 @@
 	)
 	(bus
 		(pts
-			(xy 53.34 85.09) (xy 77.47 85.09)
+			(xy 53.34 77.47) (xy 77.47 77.47)
 		)
 		(stroke
 			(width 0)
@@ -67,7 +67,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 158.75) (xy 53.34 158.75)
+			(xy 88.9 151.13) (xy 53.34 151.13)
 		)
 		(stroke
 			(width 0)
@@ -77,7 +77,7 @@
 	)
 	(bus
 		(pts
-			(xy 81.28 34.29) (xy 81.28 107.95)
+			(xy 81.28 34.29) (xy 81.28 100.33)
 		)
 		(stroke
 			(width 0)
@@ -86,8 +86,8 @@
 		(uuid "fdefbd6d-9e8e-4c4c-a35c-49477337aaa6")
 	)
 	(sheet
-		(at 15.24 80.01)
-		(size 38.1 101.6)
+		(at 15.24 74.93)
+		(size 38.1 86.36)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -102,7 +102,7 @@
 		)
 		(uuid "2f554058-6979-4fc2-85a1-6bab7ea811a9")
 		(property "Sheetname" "CM5"
-			(at 15.24 79.2984 0)
+			(at 15.24 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -111,7 +111,7 @@
 			)
 		)
 		(property "Sheetfile" "CM5.kicad_sch"
-			(at 15.24 182.1946 0)
+			(at 15.24 161.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -120,7 +120,7 @@
 			)
 		)
 		(pin "nRPIBOT" input
-			(at 53.34 135.89 0)
+			(at 53.34 128.27 0)
 			(uuid "9e58a4c2-c33c-436e-921c-75bd57235c53")
 			(effects
 				(font
@@ -130,7 +130,7 @@
 			)
 		)
 		(pin "Pi_LED_nPWR" output
-			(at 53.34 138.43 0)
+			(at 53.34 130.81 0)
 			(uuid "6c8a7632-a8f5-445d-8b3e-16e7bdd9990e")
 			(effects
 				(font
@@ -140,7 +140,7 @@
 			)
 		)
 		(pin "Pi_PWR_Button" input
-			(at 53.34 140.97 0)
+			(at 53.34 133.35 0)
 			(uuid "408dec3d-3c94-41d3-9caa-337e87b8adf9")
 			(effects
 				(font
@@ -150,7 +150,7 @@
 			)
 		)
 		(pin "Pi_Fan_Tach" input
-			(at 53.34 143.51 0)
+			(at 53.34 135.89 0)
 			(uuid "01ce8c89-0bea-4e1f-b3d1-8976ce2e7153")
 			(effects
 				(font
@@ -160,7 +160,7 @@
 			)
 		)
 		(pin "EEPROM_nWP" input
-			(at 53.34 146.05 0)
+			(at 53.34 138.43 0)
 			(uuid "8a1fe202-0f58-497f-921d-7eabfca70365")
 			(effects
 				(font
@@ -170,7 +170,7 @@
 			)
 		)
 		(pin "PMIC_Enable" input
-			(at 53.34 148.59 0)
+			(at 53.34 140.97 0)
 			(uuid "9adf7b85-1259-429b-a8f3-bbf142a0927c")
 			(effects
 				(font
@@ -180,7 +180,7 @@
 			)
 		)
 		(pin "PI_LED_nACT" output
-			(at 53.34 151.13 0)
+			(at 53.34 143.51 0)
 			(uuid "f30fbcc3-1005-4c94-bec1-43f50047d6ef")
 			(effects
 				(font
@@ -190,7 +190,7 @@
 			)
 		)
 		(pin "ETH_SYC_OUT" output
-			(at 53.34 153.67 0)
+			(at 53.34 146.05 0)
 			(uuid "e6fde8b6-f69b-4f1f-887f-db538e7e476d")
 			(effects
 				(font
@@ -200,7 +200,7 @@
 			)
 		)
 		(pin "PI_FAN_PWM" output
-			(at 53.34 156.21 0)
+			(at 53.34 148.59 0)
 			(uuid "813dd5c3-196c-4127-a845-9a53abb115e7")
 			(effects
 				(font
@@ -210,7 +210,7 @@
 			)
 		)
 		(pin "GPIO_VREF" input
-			(at 53.34 158.75 0)
+			(at 53.34 151.13 0)
 			(uuid "eabfc61c-a551-44c1-9065-6505701fb44a")
 			(effects
 				(font
@@ -220,7 +220,7 @@
 			)
 		)
 		(pin "VBAT" input
-			(at 53.34 161.29 0)
+			(at 53.34 153.67 0)
 			(uuid "5f9849f6-748f-4eec-b89b-bc849e21678d")
 			(effects
 				(font
@@ -230,7 +230,7 @@
 			)
 		)
 		(pin "Wl_nDisable" input
-			(at 53.34 163.83 0)
+			(at 53.34 156.21 0)
 			(uuid "f554f4ee-414b-421f-887b-784531adba41")
 			(effects
 				(font
@@ -240,7 +240,7 @@
 			)
 		)
 		(pin "HDMI1{HDMI}" bidirectional
-			(at 53.34 102.87 0)
+			(at 53.34 95.25 0)
 			(uuid "4c183908-475b-469f-b7c8-46d04744bac6")
 			(effects
 				(font
@@ -250,7 +250,7 @@
 			)
 		)
 		(pin "MIPI1{MIPI}" bidirectional
-			(at 53.34 110.49 0)
+			(at 53.34 102.87 0)
 			(uuid "3b92f70e-b39b-4873-96c5-b93a1d1bd8d5")
 			(effects
 				(font
@@ -260,7 +260,7 @@
 			)
 		)
 		(pin "MIPI0{MIPI}" bidirectional
-			(at 53.34 107.95 0)
+			(at 53.34 100.33 0)
 			(uuid "0b4b2339-5bd6-4208-af4c-04f8b35b8c8c")
 			(effects
 				(font
@@ -270,7 +270,7 @@
 			)
 		)
 		(pin "HDMI0{HDMI}" bidirectional
-			(at 53.34 100.33 0)
+			(at 53.34 92.71 0)
 			(uuid "9bd0ad41-24d5-4f8a-8402-908e9423786b")
 			(effects
 				(font
@@ -280,7 +280,7 @@
 			)
 		)
 		(pin "BT_nDisable" input
-			(at 53.34 166.37 0)
+			(at 53.34 158.75 0)
 			(uuid "df7603c0-1cdc-4b34-89de-d531bc475c35")
 			(effects
 				(font
@@ -290,7 +290,7 @@
 			)
 		)
 		(pin "SD0{SD}" bidirectional
-			(at 53.34 130.81 0)
+			(at 53.34 123.19 0)
 			(uuid "8b84a987-9ec9-42b5-8445-e860018a4850")
 			(effects
 				(font
@@ -300,7 +300,7 @@
 			)
 		)
 		(pin "SD_VDD_OVR" input
-			(at 53.34 128.27 0)
+			(at 53.34 120.65 0)
 			(uuid "42d803d3-9aa3-4caa-ba98-f7088bbc60e8")
 			(effects
 				(font
@@ -310,7 +310,7 @@
 			)
 		)
 		(pin "SD_PWR_ON" output
-			(at 53.34 125.73 0)
+			(at 53.34 118.11 0)
 			(uuid "cb5f6cd2-dbfd-4f90-a4d5-2355156019fc")
 			(effects
 				(font
@@ -320,7 +320,7 @@
 			)
 		)
 		(pin "USB2-0{USB2-0}" bidirectional
-			(at 53.34 121.92 0)
+			(at 53.34 114.3 0)
 			(uuid "5d40ff1d-816c-4988-9a2d-35a32232c17e")
 			(effects
 				(font
@@ -330,7 +330,7 @@
 			)
 		)
 		(pin "USB3-1{USB3-0}" bidirectional
-			(at 53.34 119.38 0)
+			(at 53.34 111.76 0)
 			(uuid "4637910d-a41a-4561-9646-555e55532ea7")
 			(effects
 				(font
@@ -340,7 +340,7 @@
 			)
 		)
 		(pin "USB3-0{USB3-0}" bidirectional
-			(at 53.34 116.84 0)
+			(at 53.34 109.22 0)
 			(uuid "78edcfb3-4bfa-40b4-a32c-a62983644dfc")
 			(effects
 				(font
@@ -350,7 +350,7 @@
 			)
 		)
 		(pin "VBUS3_EN" output
-			(at 53.34 114.3 0)
+			(at 53.34 106.68 0)
 			(uuid "a78189ab-ddd3-4c3f-9ac5-cf7a2749b889")
 			(effects
 				(font
@@ -360,7 +360,7 @@
 			)
 		)
 		(pin "ETH{Ethernet}" bidirectional
-			(at 53.34 95.25 0)
+			(at 53.34 87.63 0)
 			(uuid "52ce8b89-ec55-49ab-8df3-e49ce2664706")
 			(effects
 				(font
@@ -370,7 +370,7 @@
 			)
 		)
 		(pin "PCIE0{PCIExPi}" bidirectional
-			(at 53.34 90.17 0)
+			(at 53.34 82.55 0)
 			(uuid "95dc46b0-1a33-490c-99ea-c1f971356ac9")
 			(effects
 				(font
@@ -380,7 +380,7 @@
 			)
 		)
 		(pin "GPIO{GPIO}" bidirectional
-			(at 53.34 85.09 0)
+			(at 53.34 77.47 0)
 			(uuid "2fcf24a4-3314-4caf-86c6-bb790938d983")
 			(effects
 				(font
