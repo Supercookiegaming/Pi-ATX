@@ -5,6 +5,26 @@
 	(uuid "676c920c-f1ce-40bb-8428-0902e451bdf9")
 	(paper "A4")
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 53.34 95.25) (xy 113.03 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "052623bb-ed7b-4700-b945-464aa5a7e8ad")
+	)
+	(bus
+		(pts
+			(xy 53.34 92.71) (xy 106.68 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b64014-2cbc-43dc-9ba6-dab1573492d5")
+	)
 	(wire
 		(pts
 			(xy 88.9 34.29) (xy 88.9 151.13)
@@ -24,6 +44,16 @@
 			(type default)
 		)
 		(uuid "8ef03754-4f38-447a-aa26-da9bc25f5041")
+	)
+	(bus
+		(pts
+			(xy 106.68 92.71) (xy 106.68 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a185d72b-aaad-43d8-bba4-c9fa63f3c4a8")
 	)
 	(bus
 		(pts
@@ -57,6 +87,16 @@
 	)
 	(bus
 		(pts
+			(xy 113.03 95.25) (xy 113.03 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b4b5f8-b2f1-4cb8-a0e2-dd81b88c7cb0")
+	)
+	(bus
+		(pts
 			(xy 53.34 77.47) (xy 77.47 77.47)
 		)
 		(stroke
@@ -84,6 +124,68 @@
 			(type default)
 		)
 		(uuid "fdefbd6d-9e8e-4c4c-a35c-49477337aaa6")
+	)
+	(sheet
+		(at 100.33 19.05)
+		(size 19.05 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c6f93dd-56ed-48bc-b112-333a755d9948")
+		(property "Sheetname" "HDMI Connectors"
+			(at 99.6184 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HDMI.kicad_sch"
+			(at 119.9646 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HDMI0{HDMI}" bidirectional
+			(at 106.68 34.29 270)
+			(uuid "b989294a-4b2d-48cd-9edf-43f5de1c66be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HDMI1{HDMI}" bidirectional
+			(at 113.03 34.29 270)
+			(uuid "e457b234-b178-4752-b423-dd4dc69d88c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Pi-ATX"
+				(path "/676c920c-f1ce-40bb-8428-0902e451bdf9"
+					(page "4")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 15.24 74.93)

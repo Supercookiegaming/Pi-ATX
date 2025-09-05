@@ -620,6 +620,10 @@
     [
       "e49e3c85-312c-4d73-b4f3-09cdde936d41",
       "MIPI Connectors"
+    ],
+    [
+      "1c6f93dd-56ed-48bc-b112-333a755d9948",
+      "HDMI Connectors"
     ]
   ],
   "text_variables": {}

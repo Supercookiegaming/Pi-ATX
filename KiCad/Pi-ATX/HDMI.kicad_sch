@@ -1,0 +1,30 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2c6c02c4-5d5b-49af-8093-275cf0ad4493")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "HDMI1{HDMI}"
+		(shape bidirectional)
+		(at 104.14 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b7b96d1-ae7a-4692-a01f-57355b615315")
+	)
+	(hierarchical_label "HDMI0{HDMI}"
+		(shape bidirectional)
+		(at 104.14 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b464d7a0-dd94-4d6a-9830-7a8e37e697a2")
+	)
+)
